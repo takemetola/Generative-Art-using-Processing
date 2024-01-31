@@ -11,7 +11,6 @@ void draw() {
   float x = width / 2 + r * cos(theta);
   float y = height / 2 + r * sin(theta);
 
-  // Set a completely random stroke color for each triangle
   stroke(random(0, 100), random(0, 10), random(150, 255), 100);
   strokeWeight(3);
 
