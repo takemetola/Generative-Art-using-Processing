@@ -1,5 +1,4 @@
 
-currentImage = brz;
 PImage currentImage;
 
 void setup() {
