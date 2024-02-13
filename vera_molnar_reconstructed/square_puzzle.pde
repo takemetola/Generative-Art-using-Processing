@@ -1,4 +1,5 @@
-float l = 600;
+float a = 600;
+float b = 200;
 
 
 
@@ -14,7 +15,7 @@ void draw() {
    translate(width/2, height/2);
    float angle = radians(3);
    float angle1 = radians(1);
-   float angle2 = radians(-3);
+   float angle2 = radians(-4);
   
   rectMode(CENTER);
   
@@ -23,11 +24,11 @@ void draw() {
   rotate(angle);
   fill(190,50,25);
   rotate(angle1);
-  rect(0,0,l,l);
+  rect(0,0,a,a);
   fill(255);
-  rect(0,0,200,200);
+  rect(0,0,b,b);
   rotate(angle2);
   fill(150,50,0);
-  rect(150,120,200,200);
+  rect(150,120,b,b);
   
 }
