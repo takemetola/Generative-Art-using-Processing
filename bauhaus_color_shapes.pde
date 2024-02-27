@@ -1,0 +1,12 @@
+size(640, 360);
+background(255,255,0);
+fill(0,0,255);
+square(100, 100, 220);
+fill(255,255,0);
+fill(255,0,0);
+strokeWeight(10);
+line(150,90,130,70);
+triangle(150, 90 , 90, 250, 300, 250);
+noStroke();
+fill(255,255,0);
+circle(220,215, 25);
