@@ -1,5 +1,3 @@
-int counter = 0;
-
 void setup() {
   size(620, 420);
   background(255);
@@ -53,8 +51,4 @@ void draw() {
   line(320,0, 320, height);
   stroke(y);
   line(480,0, 480, height);
-  
-  
-  
-  
 }
